@@ -1,0 +1,40 @@
+.Footer-div{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+    box-shadow: rgb(0 0 0 / 25%) 0px 10px 20px 5px;
+}
+
+.Copyright{
+    color: #444444;
+    font-size: 7px;
+    font-weight: 400;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.Links{
+    font-size: 13px;
+    color: #444444;
+}
+
+.Links:hover{
+    cursor: pointer;
+    color: rgba(46, 229, 157, 0.4);
+    filter: drop-shadow(0px 0px 5px rgba(46, 229, 157, 0.4));
+}
+
+.Icons{
+    width: 30px;
+}
+
+.Twitter-Icon{
+    float: left;
+}
+
+.GitHub-Icon{
+    float: right;
+}

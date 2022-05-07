@@ -1,0 +1,99 @@
+main > .Main-div > .Main-Header, .Main-Buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Main-div{
+    height: 410px;
+    width: 300px;
+    background-color: #202020;
+    box-shadow: rgb(0 0 0 / 25%) 0px 20px 20px 5px;
+}
+
+.Main-Header{
+    padding-top: 20px;
+    line-height: 23px;
+}
+
+.Main-Header > h1, h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.Name{
+    font-size: 20px;
+    font-weight: 700;
+    Font-family: 'Inter', sans-serif;
+}
+
+.Dev{
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Jost', sans-serif;
+}
+
+.Main-Buttons{
+    padding-top: 20px;
+}
+
+.Main-Buttons > form {
+    padding: 0px 10px;
+}
+
+.Main-Buttons > form > input {
+    height: 36px;
+    width: 110px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    box-shadow: rgb(0 0 0 / 25%) 0px 0px 25px 10px;
+}
+
+.Main-Buttons > form > input:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+.E-Mail-button{
+    color: #202020;
+    background-color: #eeeeee;
+}
+
+.Linked-In-button{
+    color: #eeeeee;
+    background-color: #5093E2;
+}
+
+.Main-Body{
+    padding-top: 25px;
+}
+
+.Main-Body > div {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+.Main-Body > div > h1 {
+    color: #eeeeee;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.Main-Body > div > h2 {
+    color: #eeeeee;
+    line-height: 18px;
+    padding-right: 30px;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
